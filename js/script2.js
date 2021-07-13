@@ -25,10 +25,10 @@
 var userChoice = prompt('scegli "pari"o"dispari"', 'pari');
 
 // VALIDATION
-while (userChoice.toLowerCase().trim() !== 'pari' &&
-    userChoice.toLowerCase().trim() !== 'dispari');
-
-userChoice = prompt('scegli "pari"o"dispari"', 'pari');
+while (userChoice = prompt('scegli "pari"o"dispari"', 'pari')) {
+    userChoice.toLowerCase().trim() !== 'pari' &&
+        userChoice.toLowerCase().trim() !== 'dispari';
+};
 
 var userNumber = prompt('Scegli un numero da 1 a 5', 'pari');
 
